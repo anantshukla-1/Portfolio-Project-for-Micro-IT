@@ -8,7 +8,7 @@ const Sidebar = () => {
     <>
       {/* Hamburger Button */}
       <button
-        className="fixed top-2 left-4 z-50 p-2 bg-blue-600 text-white rounded"
+        className="fixed top-2 left-2 z-50 p-2 bg-blue-600 text-white rounded"
         onClick={() => setIsOpen(!isOpen)}
         aria-label="Toggle Sidebar"
       >
