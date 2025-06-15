@@ -28,7 +28,8 @@ function LandingPage() {
           <h2 className="text-2xl font-semibold mb-4 text-center">Affiliated Universities</h2>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
            {universities.map((uni, index) => (
-  <div key={index} className="bg-white p-4 border rounded shadow text-center">
+  <div key={index} className="bg-white p-4 border rounded shadow text-center transform transition-transform duration-300 hover:scale-105">
+
     <img
       src={uni.logo}
       alt={`${uni.name} logo`}
